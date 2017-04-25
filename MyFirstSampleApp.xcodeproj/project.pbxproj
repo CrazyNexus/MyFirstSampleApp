@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0949CE043D92B0EA22DD10C1 /* MyPrefixMyServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE822819804CB667D9324EC /* MyPrefixMyServiceClass.swift */; };
+		125A4F4A214E12DA4AA64DA6 /* MyPrefixProductText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DCB2258E307E099F136E0E /* MyPrefixProductText.swift */; };
+		128604DA1E55B41600C698B5 /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128604D91E55B41600C698B5 /* SAPCommon.framework */; };
+		128604DB1E55B43B00C698B5 /* SAPCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 128604D91E55B41600C698B5 /* SAPCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		149E4723144AE9904641E451 /* MyPrefixStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223B3052846B47312E9F891B /* MyPrefixStock.swift */; };
+		1953332A9D496469DC256B11 /* MyPrefixStockMasterTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7823F3A7F5553C136A9783FF /* MyPrefixStockMasterTableDelegate.swift */; };
+		27C77346FFB950A004F86EA4 /* MyPrefixMyServiceClassMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B5722E999CB5C7D0C885B8 /* MyPrefixMyServiceClassMetadata.swift */; };
+		2AB0B28E08D964B975460A92 /* MyPrefixPurchaseOrderHeaderDetailTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C10439D0A49A8FE285517 /* MyPrefixPurchaseOrderHeaderDetailTableDelegate.swift */; };
+		32AED9D4C3A7A9D58CAAC518 /* MyPrefixCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9E46CE1ACD18C5B986329 /* MyPrefixCustomer.swift */; };
+		3895FF3512E6C97347EF886B /* MyPrefixProductCategoriesMasterTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54996759CA68595B82F87976 /* MyPrefixProductCategoriesMasterTableDelegate.swift */; };
+		3B14D65965F82AC5F22AE2B5 /* MyPrefixCustomerDetailTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963AA3C391EF433EF22E0886 /* MyPrefixCustomerDetailTableDelegate.swift */; };
+		3E705F6CAF8FDF36A28DD824 /* MyPrefixPurchaseOrderItemDetailTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6325060B8B4E5C47BE3E3F /* MyPrefixPurchaseOrderItemDetailTableDelegate.swift */; };
+		4BD3749C3087DF137E8661EB /* MyPrefixSupplierDetailTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1945BDBAB863FFE7FE3407 /* MyPrefixSupplierDetailTableDelegate.swift */; };
+		6435C85A020D89661EFDA6B2 /* MyPrefixPurchaseOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7D46616DDF1B940507D6A /* MyPrefixPurchaseOrderHeader.swift */; };
+		64EF1C1277619A783B3E3799 /* MyPrefixCustomersMasterTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7167BFE7E677148D2E8E59 /* MyPrefixCustomersMasterTableDelegate.swift */; };
+		6D576619A6C71D4C7370F31D /* MyPrefixSalesOrderHeadersMasterTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA680EB33C7D52DDB39B8A27 /* MyPrefixSalesOrderHeadersMasterTableDelegate.swift */; };
+		6E3104515197707CEAAA26F6 /* MyPrefixProductsMasterTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEEE746F7A351847694DBBC /* MyPrefixProductsMasterTableDelegate.swift */; };
+		753AAE9E1DCA20B400972B8E /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		753AAE9F1DCA20B400972B8E /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		756192211DBE1A99007F562C /* SAPOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7561921A1DBE1A90007F562C /* SAPOData.framework */; };
+		756192221DBE1A99007F562C /* SAPOData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7561921A1DBE1A90007F562C /* SAPOData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7569DA531E5C717C00C5D751 /* SAPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7569DA511E5C716A00C5D751 /* SAPFoundation.framework */; };
+		7569DA541E5C717C00C5D751 /* SAPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7569DA511E5C716A00C5D751 /* SAPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		759BA2701E6821A7001C32BA /* SAPFiori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759BA26F1E6821A7001C32BA /* SAPFiori.framework */; };
+		759BA2721E6821AF001C32BA /* SAPFiori.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 759BA26F1E6821A7001C32BA /* SAPFiori.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75AC42D11DAF824D00B445FF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC42CB1DAF824D00B445FF /* MasterViewController.swift */; };
+		75AC42D21DAF824D00B445FF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC42CC1DAF824D00B445FF /* DetailViewController.swift */; };
+		75AC42D31DAF824D00B445FF /* BasicAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC42CD1DAF824D00B445FF /* BasicAuthViewController.swift */; };
+		75AC42D41DAF824D00B445FF /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC42CE1DAF824D00B445FF /* CollectionsViewController.swift */; };
+		75AC42DA1DAF868400B445FF /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC42D91DAF868400B445FF /* Notifier.swift */; };
+		75AC42DC1DAF988700B445FF /* MasterTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC42DB1DAF988700B445FF /* MasterTableDelegate.swift */; };
+		75AC42DE1DAF988D00B445FF /* DetailTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC42DD1DAF988D00B445FF /* DetailTableDelegate.swift */; };
+		75C120341E682327005E9FD2 /* SAPOfflineOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C120331E682327005E9FD2 /* SAPOfflineOData.framework */; };
+		75C120361E68232D005E9FD2 /* SAPOfflineOData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75C120331E682327005E9FD2 /* SAPOfflineOData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75C9C1151DC22E3B002055E6 /* RegexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9C1141DC22E3B002055E6 /* RegexManager.swift */; };
+		75DD10A41DC1F23B007EB4BC /* TypeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD10A31DC1F23B007EB4BC /* TypeValidator.swift */; };
+		77B1879DF8466874EC588934 /* MyPrefixMyServiceClassDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18FB7645A5E59E3F2E345FB /* MyPrefixMyServiceClassDataAccess.swift */; };
+		7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1315B81D4B982000A5DA56 /* AppDelegate.swift */; };
+		7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1315C11D4B982000A5DA56 /* Assets.xcassets */; };
+		7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */; };
+		7AB2C56D1D50A95E00D1F039 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2C56C1D50A95E00D1F039 /* Constants.swift */; };
+		8B1629D2CA637E7461ACE079 /* MyPrefixSalesOrderItemDetailTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77C66A7E5DA70D51A787F3 /* MyPrefixSalesOrderItemDetailTableDelegate.swift */; };
+		8E486BF07FF888D19FF6D7D9 /* MyPrefixProductTextsMasterTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1032AC7603F359498993305E /* MyPrefixProductTextsMasterTableDelegate.swift */; };
+		92A9390045D383677D0AACD2 /* MyPrefixSalesOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94B089E944C6D02037B305 /* MyPrefixSalesOrderHeader.swift */; };
+		9F319B2EFC355B76E27C96A7 /* MyPrefixProductTextDetailTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E327A5B73FB279AE0476B /* MyPrefixProductTextDetailTableDelegate.swift */; };
+		9FCE7E86C81CE1400FE8EB5C /* MyPrefixPurchaseOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C02B15B3F7B03BFAD1BF61 /* MyPrefixPurchaseOrderItem.swift */; };
+		A08463887E565760555E626F /* MyPrefixPurchaseOrderHeadersMasterTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D03AEDF13437F953B16C46 /* MyPrefixPurchaseOrderHeadersMasterTableDelegate.swift */; };
+		A1B312FC0D3387552960C55D /* MyPrefixSalesOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC5703F4F6932A8D78CB7B /* MyPrefixSalesOrderItem.swift */; };
+		B251FB7510D47B3ED9E43EB6 /* MyPrefixProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4EF5ED982D4C4E10D1182 /* MyPrefixProduct.swift */; };
+		C4EA6F3721ED6CD3E80866CE /* MyPrefixSalesOrderItemsMasterTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF1952968B47A29E802047 /* MyPrefixSalesOrderItemsMasterTableDelegate.swift */; };
+		CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCA7A9B1E3778A9001AF49E /* Main.storyboard */; };
+		CBF918211DCC95B30037332A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF918201DCC95B30037332A /* ActivityIndicator.swift */; };
+		D848F1AD60E86C5E87E7B288 /* MyPrefixProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ADED35F61B0701A6F6B302 /* MyPrefixProductCategory.swift */; };
+		E173EBA9DE068FE18A006543 /* MyPrefixStockDetailTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2963C369394092B1C5775DEF /* MyPrefixStockDetailTableDelegate.swift */; };
+		E3E503FA31121D910FA8D265 /* MyPrefixSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A1EDB17C2FC8AF3CBFEF4 /* MyPrefixSupplier.swift */; };
+		EC23D1CE55C9B854B395770F /* MyPrefixSuppliersMasterTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42ACE9C14A56F3FDE973AC7 /* MyPrefixSuppliersMasterTableDelegate.swift */; };
+		EE4678F0FCCEECA503B05966 /* MyPrefixProductCategoryDetailTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3537E019BD604A8BE9F1FDC4 /* MyPrefixProductCategoryDetailTableDelegate.swift */; };
+		EE88961456C4611C89502C78 /* MyPrefixSalesOrderHeaderDetailTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95C6929F3300FEE2D6F17EA /* MyPrefixSalesOrderHeaderDetailTableDelegate.swift */; };
+		F0E29C052D793DDA9A0B3DD2 /* MyPrefixPurchaseOrderItemsMasterTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB24473F873541B7630B5DE /* MyPrefixPurchaseOrderItemsMasterTableDelegate.swift */; };
+		F608C457F8C7993F656C88F0 /* MyPrefixProductDetailTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4855C9BDDCBDFE5FC7FF969 /* MyPrefixProductDetailTableDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		758AC1C31D5A265200311F39 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7569DA541E5C717C00C5D751 /* SAPFoundation.framework in Embed Frameworks */,
+				128604DB1E55B43B00C698B5 /* SAPCommon.framework in Embed Frameworks */,
+				75C120361E68232D005E9FD2 /* SAPOfflineOData.framework in Embed Frameworks */,
+				756192221DBE1A99007F562C /* SAPOData.framework in Embed Frameworks */,
+				759BA2721E6821AF001C32BA /* SAPFiori.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AEEE746F7A351847694DBBC /* MyPrefixProductsMasterTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductsMasterTableDelegate.swift; path = TableDelegates/MasterTableDelegates/MyPrefixProductsMasterTableDelegate.swift; sourceTree = "<group>"; };
+		0DE822819804CB667D9324EC /* MyPrefixMyServiceClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixMyServiceClass.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixMyServiceClass.swift"; sourceTree = "<group>"; };
+		1032AC7603F359498993305E /* MyPrefixProductTextsMasterTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductTextsMasterTableDelegate.swift; path = TableDelegates/MasterTableDelegates/MyPrefixProductTextsMasterTableDelegate.swift; sourceTree = "<group>"; };
+		128604D91E55B41600C698B5 /* SAPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPCommon.framework; sourceTree = "<group>"; };
+		223B3052846B47312E9F891B /* MyPrefixStock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixStock.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixStock.swift"; sourceTree = "<group>"; };
+		2963C369394092B1C5775DEF /* MyPrefixStockDetailTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixStockDetailTableDelegate.swift; path = TableDelegates/DetailTableDelegates/MyPrefixStockDetailTableDelegate.swift; sourceTree = "<group>"; };
+		3537E019BD604A8BE9F1FDC4 /* MyPrefixProductCategoryDetailTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductCategoryDetailTableDelegate.swift; path = TableDelegates/DetailTableDelegates/MyPrefixProductCategoryDetailTableDelegate.swift; sourceTree = "<group>"; };
+		3C6325060B8B4E5C47BE3E3F /* MyPrefixPurchaseOrderItemDetailTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderItemDetailTableDelegate.swift; path = TableDelegates/DetailTableDelegates/MyPrefixPurchaseOrderItemDetailTableDelegate.swift; sourceTree = "<group>"; };
+		47C02B15B3F7B03BFAD1BF61 /* MyPrefixPurchaseOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderItem.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixPurchaseOrderItem.swift"; sourceTree = "<group>"; };
+		4EA4EF5ED982D4C4E10D1182 /* MyPrefixProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProduct.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixProduct.swift"; sourceTree = "<group>"; };
+		4FD7D46616DDF1B940507D6A /* MyPrefixPurchaseOrderHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderHeader.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixPurchaseOrderHeader.swift"; sourceTree = "<group>"; };
+		54996759CA68595B82F87976 /* MyPrefixProductCategoriesMasterTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductCategoriesMasterTableDelegate.swift; path = TableDelegates/MasterTableDelegates/MyPrefixProductCategoriesMasterTableDelegate.swift; sourceTree = "<group>"; };
+		62B5722E999CB5C7D0C885B8 /* MyPrefixMyServiceClassMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixMyServiceClassMetadata.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixMyServiceClassMetadata.swift"; sourceTree = "<group>"; };
+		7526CCAC1D86B009007D789D /* MyFirstSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyFirstSampleApp.entitlements; sourceTree = "<group>"; };
+		7561921A1DBE1A90007F562C /* SAPOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOData.framework; sourceTree = "<group>"; };
+		7569DA511E5C716A00C5D751 /* SAPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFoundation.framework; sourceTree = "<group>"; };
+		759BA26F1E6821A7001C32BA /* SAPFiori.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFiori.framework; sourceTree = "<group>"; };
+		75AC42CB1DAF824D00B445FF /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		75AC42CC1DAF824D00B445FF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		75AC42CD1DAF824D00B445FF /* BasicAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAuthViewController.swift; sourceTree = "<group>"; };
+		75AC42CE1DAF824D00B445FF /* CollectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
+		75AC42D91DAF868400B445FF /* Notifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+		75AC42DB1DAF988700B445FF /* MasterTableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableDelegate.swift; sourceTree = "<group>"; };
+		75AC42DD1DAF988D00B445FF /* DetailTableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableDelegate.swift; sourceTree = "<group>"; };
+		75C120331E682327005E9FD2 /* SAPOfflineOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOfflineOData.framework; sourceTree = "<group>"; };
+		75C9C1141DC22E3B002055E6 /* RegexManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexManager.swift; sourceTree = "<group>"; };
+		75DD10A31DC1F23B007EB4BC /* TypeValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeValidator.swift; sourceTree = "<group>"; };
+		7823F3A7F5553C136A9783FF /* MyPrefixStockMasterTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixStockMasterTableDelegate.swift; path = TableDelegates/MasterTableDelegates/MyPrefixStockMasterTableDelegate.swift; sourceTree = "<group>"; };
+		7A1315B51D4B982000A5DA56 /* MyFirstSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1315B81D4B982000A5DA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A1315C11D4B982000A5DA56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1315C41D4B982000A5DA56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A1315C61D4B982000A5DA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB24473F873541B7630B5DE /* MyPrefixPurchaseOrderItemsMasterTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderItemsMasterTableDelegate.swift; path = TableDelegates/MasterTableDelegates/MyPrefixPurchaseOrderItemsMasterTableDelegate.swift; sourceTree = "<group>"; };
+		7AB2C56C1D50A95E00D1F039 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8A6E327A5B73FB279AE0476B /* MyPrefixProductTextDetailTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductTextDetailTableDelegate.swift; path = TableDelegates/DetailTableDelegates/MyPrefixProductTextDetailTableDelegate.swift; sourceTree = "<group>"; };
+		931A1EDB17C2FC8AF3CBFEF4 /* MyPrefixSupplier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSupplier.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixSupplier.swift"; sourceTree = "<group>"; };
+		94F9E46CE1ACD18C5B986329 /* MyPrefixCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixCustomer.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixCustomer.swift"; sourceTree = "<group>"; };
+		963AA3C391EF433EF22E0886 /* MyPrefixCustomerDetailTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixCustomerDetailTableDelegate.swift; path = TableDelegates/DetailTableDelegates/MyPrefixCustomerDetailTableDelegate.swift; sourceTree = "<group>"; };
+		AE7167BFE7E677148D2E8E59 /* MyPrefixCustomersMasterTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixCustomersMasterTableDelegate.swift; path = TableDelegates/MasterTableDelegates/MyPrefixCustomersMasterTableDelegate.swift; sourceTree = "<group>"; };
+		BDEF1952968B47A29E802047 /* MyPrefixSalesOrderItemsMasterTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderItemsMasterTableDelegate.swift; path = TableDelegates/MasterTableDelegates/MyPrefixSalesOrderItemsMasterTableDelegate.swift; sourceTree = "<group>"; };
+		BF77C66A7E5DA70D51A787F3 /* MyPrefixSalesOrderItemDetailTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderItemDetailTableDelegate.swift; path = TableDelegates/DetailTableDelegates/MyPrefixSalesOrderItemDetailTableDelegate.swift; sourceTree = "<group>"; };
+		C5DCB2258E307E099F136E0E /* MyPrefixProductText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductText.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixProductText.swift"; sourceTree = "<group>"; };
+		C7ADED35F61B0701A6F6B302 /* MyPrefixProductCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductCategory.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixProductCategory.swift"; sourceTree = "<group>"; };
+		CB909D801E38CA8800218154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB9BF1FE1E3A01D0004FE213 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		CBF918201DCC95B30037332A /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		CDFC5703F4F6932A8D78CB7B /* MyPrefixSalesOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderItem.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixSalesOrderItem.swift"; sourceTree = "<group>"; };
+		D18FB7645A5E59E3F2E345FB /* MyPrefixMyServiceClassDataAccess.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyPrefixMyServiceClassDataAccess.swift; sourceTree = "<group>"; };
+		D4855C9BDDCBDFE5FC7FF969 /* MyPrefixProductDetailTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductDetailTableDelegate.swift; path = TableDelegates/DetailTableDelegates/MyPrefixProductDetailTableDelegate.swift; sourceTree = "<group>"; };
+		E42ACE9C14A56F3FDE973AC7 /* MyPrefixSuppliersMasterTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSuppliersMasterTableDelegate.swift; path = TableDelegates/MasterTableDelegates/MyPrefixSuppliersMasterTableDelegate.swift; sourceTree = "<group>"; };
+		E95C6929F3300FEE2D6F17EA /* MyPrefixSalesOrderHeaderDetailTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderHeaderDetailTableDelegate.swift; path = TableDelegates/DetailTableDelegates/MyPrefixSalesOrderHeaderDetailTableDelegate.swift; sourceTree = "<group>"; };
+		EC4C10439D0A49A8FE285517 /* MyPrefixPurchaseOrderHeaderDetailTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderHeaderDetailTableDelegate.swift; path = TableDelegates/DetailTableDelegates/MyPrefixPurchaseOrderHeaderDetailTableDelegate.swift; sourceTree = "<group>"; };
+		EC94B089E944C6D02037B305 /* MyPrefixSalesOrderHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderHeader.swift; path = "Proxy Classes/com.sap.OEA.MyFirstSampleApp/public/MyPrefixSalesOrderHeader.swift"; sourceTree = "<group>"; };
+		F6D03AEDF13437F953B16C46 /* MyPrefixPurchaseOrderHeadersMasterTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderHeadersMasterTableDelegate.swift; path = TableDelegates/MasterTableDelegates/MyPrefixPurchaseOrderHeadersMasterTableDelegate.swift; sourceTree = "<group>"; };
+		FA680EB33C7D52DDB39B8A27 /* MyPrefixSalesOrderHeadersMasterTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderHeadersMasterTableDelegate.swift; path = TableDelegates/MasterTableDelegates/MyPrefixSalesOrderHeadersMasterTableDelegate.swift; sourceTree = "<group>"; };
+		FE1945BDBAB863FFE7FE3407 /* MyPrefixSupplierDetailTableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSupplierDetailTableDelegate.swift; path = TableDelegates/DetailTableDelegates/MyPrefixSupplierDetailTableDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A1315B21D4B982000A5DA56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7569DA531E5C717C00C5D751 /* SAPFoundation.framework in Frameworks */,
+				756192211DBE1A99007F562C /* SAPOData.framework in Frameworks */,
+				75C120341E682327005E9FD2 /* SAPOfflineOData.framework in Frameworks */,
+				128604DA1E55B41600C698B5 /* SAPCommon.framework in Frameworks */,
+				759BA2701E6821A7001C32BA /* SAPFiori.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65B41A5C72942C5F1C143056 /* com.sap.OEA.MyFirstSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				9C840BF3D25C6E940B9DC6B5 /* public */,
+			);
+			name = com.sap.OEA.MyFirstSampleApp;
+			sourceTree = "<group>";
+		};
+		7532C1BB1D5B6917004B03AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AB2C56C1D50A95E00D1F039 /* Constants.swift */,
+				D18FB7645A5E59E3F2E345FB /* MyPrefixMyServiceClassDataAccess.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		755C10B41D5C63B000ECF6A2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CBF918201DCC95B30037332A /* ActivityIndicator.swift */,
+				75AC42D91DAF868400B445FF /* Notifier.swift */,
+				75DD10A31DC1F23B007EB4BC /* TypeValidator.swift */,
+				75C9C1141DC22E3B002055E6 /* RegexManager.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		75AC42C11DAF7F6300B445FF /* TableDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				75AC42C31DAF7F8400B445FF /* DetailTableDelegates */,
+				75AC42C21DAF7F7700B445FF /* MasterTableDelegates */,
+			);
+			name = TableDelegates;
+			sourceTree = "<group>";
+		};
+		75AC42C21DAF7F7700B445FF /* MasterTableDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				75AC42DB1DAF988700B445FF /* MasterTableDelegate.swift */,
+				FA680EB33C7D52DDB39B8A27 /* MyPrefixSalesOrderHeadersMasterTableDelegate.swift */,
+				1032AC7603F359498993305E /* MyPrefixProductTextsMasterTableDelegate.swift */,
+				E42ACE9C14A56F3FDE973AC7 /* MyPrefixSuppliersMasterTableDelegate.swift */,
+				7AB24473F873541B7630B5DE /* MyPrefixPurchaseOrderItemsMasterTableDelegate.swift */,
+				7823F3A7F5553C136A9783FF /* MyPrefixStockMasterTableDelegate.swift */,
+				AE7167BFE7E677148D2E8E59 /* MyPrefixCustomersMasterTableDelegate.swift */,
+				54996759CA68595B82F87976 /* MyPrefixProductCategoriesMasterTableDelegate.swift */,
+				BDEF1952968B47A29E802047 /* MyPrefixSalesOrderItemsMasterTableDelegate.swift */,
+				F6D03AEDF13437F953B16C46 /* MyPrefixPurchaseOrderHeadersMasterTableDelegate.swift */,
+				0AEEE746F7A351847694DBBC /* MyPrefixProductsMasterTableDelegate.swift */,
+			);
+			name = MasterTableDelegates;
+			sourceTree = "<group>";
+		};
+		75AC42C31DAF7F8400B445FF /* DetailTableDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				75AC42DD1DAF988D00B445FF /* DetailTableDelegate.swift */,
+				BF77C66A7E5DA70D51A787F3 /* MyPrefixSalesOrderItemDetailTableDelegate.swift */,
+				FE1945BDBAB863FFE7FE3407 /* MyPrefixSupplierDetailTableDelegate.swift */,
+				8A6E327A5B73FB279AE0476B /* MyPrefixProductTextDetailTableDelegate.swift */,
+				3C6325060B8B4E5C47BE3E3F /* MyPrefixPurchaseOrderItemDetailTableDelegate.swift */,
+				963AA3C391EF433EF22E0886 /* MyPrefixCustomerDetailTableDelegate.swift */,
+				EC4C10439D0A49A8FE285517 /* MyPrefixPurchaseOrderHeaderDetailTableDelegate.swift */,
+				3537E019BD604A8BE9F1FDC4 /* MyPrefixProductCategoryDetailTableDelegate.swift */,
+				2963C369394092B1C5775DEF /* MyPrefixStockDetailTableDelegate.swift */,
+				E95C6929F3300FEE2D6F17EA /* MyPrefixSalesOrderHeaderDetailTableDelegate.swift */,
+				D4855C9BDDCBDFE5FC7FF969 /* MyPrefixProductDetailTableDelegate.swift */,
+			);
+			name = DetailTableDelegates;
+			sourceTree = "<group>";
+		};
+		75AC42C81DAF80C000B445FF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75AC42CB1DAF824D00B445FF /* MasterViewController.swift */,
+				75AC42CC1DAF824D00B445FF /* DetailViewController.swift */,
+				75AC42CD1DAF824D00B445FF /* BasicAuthViewController.swift */,
+				75AC42CE1DAF824D00B445FF /* CollectionsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75D373EF1DD1FB0800888D4C /* Proxy Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65B41A5C72942C5F1C143056 /* com.sap.OEA.MyFirstSampleApp */,
+			);
+			name = "Proxy Classes";
+			sourceTree = "<group>";
+		};
+		7A1315AC1D4B982000A5DA56 = {
+			isa = PBXGroup;
+			children = (
+				7A1315B71D4B982000A5DA56 /* MyFirstSampleApp */,
+				7A1315B61D4B982000A5DA56 /* Products */,
+				7A1315CC1D4B990B00A5DA56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A1315B61D4B982000A5DA56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1315B51D4B982000A5DA56 /* MyFirstSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A1315B71D4B982000A5DA56 /* MyFirstSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				7526CCAC1D86B009007D789D /* MyFirstSampleApp.entitlements */,
+				7532C1BB1D5B6917004B03AF /* Model */,
+				75AC42C81DAF80C000B445FF /* ViewControllers */,
+				75AC42C11DAF7F6300B445FF /* TableDelegates */,
+				75D373EF1DD1FB0800888D4C /* Proxy Classes */,
+				755C10B41D5C63B000ECF6A2 /* Utils */,
+				7A1315B81D4B982000A5DA56 /* AppDelegate.swift */,
+				CBCA7A9B1E3778A9001AF49E /* Main.storyboard */,
+				7A1315C11D4B982000A5DA56 /* Assets.xcassets */,
+				7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */,
+				7A1315C61D4B982000A5DA56 /* Info.plist */,
+			);
+			path = MyFirstSampleApp;
+			sourceTree = "<group>";
+		};
+		7A1315CC1D4B990B00A5DA56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75C120331E682327005E9FD2 /* SAPOfflineOData.framework */,
+				759BA26F1E6821A7001C32BA /* SAPFiori.framework */,
+				7569DA511E5C716A00C5D751 /* SAPFoundation.framework */,
+				7561921A1DBE1A90007F562C /* SAPOData.framework */,
+				128604D91E55B41600C698B5 /* SAPCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C840BF3D25C6E940B9DC6B5 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				94F9E46CE1ACD18C5B986329 /* MyPrefixCustomer.swift */,
+				0DE822819804CB667D9324EC /* MyPrefixMyServiceClass.swift */,
+				62B5722E999CB5C7D0C885B8 /* MyPrefixMyServiceClassMetadata.swift */,
+				4EA4EF5ED982D4C4E10D1182 /* MyPrefixProduct.swift */,
+				C7ADED35F61B0701A6F6B302 /* MyPrefixProductCategory.swift */,
+				C5DCB2258E307E099F136E0E /* MyPrefixProductText.swift */,
+				4FD7D46616DDF1B940507D6A /* MyPrefixPurchaseOrderHeader.swift */,
+				47C02B15B3F7B03BFAD1BF61 /* MyPrefixPurchaseOrderItem.swift */,
+				EC94B089E944C6D02037B305 /* MyPrefixSalesOrderHeader.swift */,
+				CDFC5703F4F6932A8D78CB7B /* MyPrefixSalesOrderItem.swift */,
+				223B3052846B47312E9F891B /* MyPrefixStock.swift */,
+				931A1EDB17C2FC8AF3CBFEF4 /* MyPrefixSupplier.swift */,
+			);
+			name = public;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A1315B41D4B982000A5DA56 /* MyFirstSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1315C91D4B982000A5DA56 /* Build configuration list for PBXNativeTarget "MyFirstSampleApp" */;
+			buildPhases = (
+				7A1315B11D4B982000A5DA56 /* Sources */,
+				7A1315B21D4B982000A5DA56 /* Frameworks */,
+				7A1315B31D4B982000A5DA56 /* Resources */,
+				758AC1C31D5A265200311F39 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFirstSampleApp;
+			productName = MyFirstSampleApp;
+			productReference = 7A1315B51D4B982000A5DA56 /* MyFirstSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1315AD1D4B982000A5DA56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = SAP;
+				TargetAttributes = {
+					7A1315B41D4B982000A5DA56 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7A1315B01D4B982000A5DA56 /* Build configuration list for PBXProject "MyFirstSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A1315AC1D4B982000A5DA56;
+			productRefGroup = 7A1315B61D4B982000A5DA56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A1315B41D4B982000A5DA56 /* MyFirstSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A1315B31D4B982000A5DA56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */,
+				7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */,
+				CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1315B11D4B982000A5DA56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753AAE9E1DCA20B400972B8E /* BuildFile in Sources */,
+				75AC42D11DAF824D00B445FF /* MasterViewController.swift in Sources */,
+				75AC42D21DAF824D00B445FF /* DetailViewController.swift in Sources */,
+				75AC42D31DAF824D00B445FF /* BasicAuthViewController.swift in Sources */,
+				CBF918211DCC95B30037332A /* ActivityIndicator.swift in Sources */,
+				753AAE9F1DCA20B400972B8E /* BuildFile in Sources */,
+				75AC42DE1DAF988D00B445FF /* DetailTableDelegate.swift in Sources */,
+				7AB2C56D1D50A95E00D1F039 /* Constants.swift in Sources */,
+				75DD10A41DC1F23B007EB4BC /* TypeValidator.swift in Sources */,
+				75AC42D41DAF824D00B445FF /* CollectionsViewController.swift in Sources */,
+				75AC42DC1DAF988700B445FF /* MasterTableDelegate.swift in Sources */,
+				7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */,
+				75AC42DA1DAF868400B445FF /* Notifier.swift in Sources */,
+				75C9C1151DC22E3B002055E6 /* RegexManager.swift in Sources */,
+				32AED9D4C3A7A9D58CAAC518 /* MyPrefixCustomer.swift in Sources */,
+				0949CE043D92B0EA22DD10C1 /* MyPrefixMyServiceClass.swift in Sources */,
+				27C77346FFB950A004F86EA4 /* MyPrefixMyServiceClassMetadata.swift in Sources */,
+				B251FB7510D47B3ED9E43EB6 /* MyPrefixProduct.swift in Sources */,
+				D848F1AD60E86C5E87E7B288 /* MyPrefixProductCategory.swift in Sources */,
+				125A4F4A214E12DA4AA64DA6 /* MyPrefixProductText.swift in Sources */,
+				6435C85A020D89661EFDA6B2 /* MyPrefixPurchaseOrderHeader.swift in Sources */,
+				9FCE7E86C81CE1400FE8EB5C /* MyPrefixPurchaseOrderItem.swift in Sources */,
+				92A9390045D383677D0AACD2 /* MyPrefixSalesOrderHeader.swift in Sources */,
+				A1B312FC0D3387552960C55D /* MyPrefixSalesOrderItem.swift in Sources */,
+				149E4723144AE9904641E451 /* MyPrefixStock.swift in Sources */,
+				E3E503FA31121D910FA8D265 /* MyPrefixSupplier.swift in Sources */,
+				77B1879DF8466874EC588934 /* MyPrefixMyServiceClassDataAccess.swift in Sources */,
+				8B1629D2CA637E7461ACE079 /* MyPrefixSalesOrderItemDetailTableDelegate.swift in Sources */,
+				4BD3749C3087DF137E8661EB /* MyPrefixSupplierDetailTableDelegate.swift in Sources */,
+				9F319B2EFC355B76E27C96A7 /* MyPrefixProductTextDetailTableDelegate.swift in Sources */,
+				3E705F6CAF8FDF36A28DD824 /* MyPrefixPurchaseOrderItemDetailTableDelegate.swift in Sources */,
+				3B14D65965F82AC5F22AE2B5 /* MyPrefixCustomerDetailTableDelegate.swift in Sources */,
+				2AB0B28E08D964B975460A92 /* MyPrefixPurchaseOrderHeaderDetailTableDelegate.swift in Sources */,
+				EE4678F0FCCEECA503B05966 /* MyPrefixProductCategoryDetailTableDelegate.swift in Sources */,
+				E173EBA9DE068FE18A006543 /* MyPrefixStockDetailTableDelegate.swift in Sources */,
+				EE88961456C4611C89502C78 /* MyPrefixSalesOrderHeaderDetailTableDelegate.swift in Sources */,
+				F608C457F8C7993F656C88F0 /* MyPrefixProductDetailTableDelegate.swift in Sources */,
+				6D576619A6C71D4C7370F31D /* MyPrefixSalesOrderHeadersMasterTableDelegate.swift in Sources */,
+				8E486BF07FF888D19FF6D7D9 /* MyPrefixProductTextsMasterTableDelegate.swift in Sources */,
+				EC23D1CE55C9B854B395770F /* MyPrefixSuppliersMasterTableDelegate.swift in Sources */,
+				F0E29C052D793DDA9A0B3DD2 /* MyPrefixPurchaseOrderItemsMasterTableDelegate.swift in Sources */,
+				1953332A9D496469DC256B11 /* MyPrefixStockMasterTableDelegate.swift in Sources */,
+				64EF1C1277619A783B3E3799 /* MyPrefixCustomersMasterTableDelegate.swift in Sources */,
+				3895FF3512E6C97347EF886B /* MyPrefixProductCategoriesMasterTableDelegate.swift in Sources */,
+				C4EA6F3721ED6CD3E80866CE /* MyPrefixSalesOrderItemsMasterTableDelegate.swift in Sources */,
+				A08463887E565760555E626F /* MyPrefixPurchaseOrderHeadersMasterTableDelegate.swift in Sources */,
+				6E3104515197707CEAAA26F6 /* MyPrefixProductsMasterTableDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1315C41D4B982000A5DA56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CBCA7A9B1E3778A9001AF49E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB909D801E38CA8800218154 /* Base */,
+				CB9BF1FE1E3A01D0004FE213 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A1315C71D4B982000A5DA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A1315C81D4B982000A5DA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A1315CA1D4B982000A5DA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyFirstSampleApp/MyFirstSampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MyFirstSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.OEA.MyFirstSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A1315CB1D4B982000A5DA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyFirstSampleApp/MyFirstSampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MyFirstSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.OEA.MyFirstSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A1315B01D4B982000A5DA56 /* Build configuration list for PBXProject "MyFirstSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1315C71D4B982000A5DA56 /* Debug */,
+				7A1315C81D4B982000A5DA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1315C91D4B982000A5DA56 /* Build configuration list for PBXNativeTarget "MyFirstSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1315CA1D4B982000A5DA56 /* Debug */,
+				7A1315CB1D4B982000A5DA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A1315AD1D4B982000A5DA56 /* Project object */;
+}
